@@ -1,0 +1,20 @@
+{
+  "hosting": {
+<<<<<<< HEAD
+    "public": "dist/angular-tour-of-heroes",
+=======
+    "public": "dist",
+>>>>>>> bdcfe28c9cb2f4ca910a53b884e525359dfb03e1
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
